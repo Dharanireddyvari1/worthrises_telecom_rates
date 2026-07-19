@@ -10,7 +10,7 @@
 | `match_status` | `matched`, `review`, or `no_match`. |
 | `match_reason` | Short explanation of why the row received its match status. |
 | `matched_facility_count` | Number of provider facilities included in the jurisdiction-level aggregate. |
-| `matched_facilities` | Provider facility names used for the match, limited for readability. |
+| `matched_facilities` | All provider facility names used for the match, semicolon-separated. |
 | `in_state_rate` | Median per-minute in-state phone rate across matched facilities. |
 | `out_of_state_rate` | Median per-minute out-of-state phone rate across matched facilities. |
 
@@ -18,6 +18,3 @@
 
 Contains every jurisdiction where `match_status` is not `matched`. These rows should be reviewed before a public release.
 
-## outputs/validation_summary.csv
-
-Run-level checks showing input row counts, output row counts, status counts, duplicate target rows, and whether the output contains exactly one row per target jurisdiction.
