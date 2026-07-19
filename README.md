@@ -39,7 +39,6 @@ requirements.txt
 
 ```bash
 pip install -r requirements.txt
-cd src
 python src/clean_and_match.py
 ```
 
