@@ -1,0 +1,164 @@
+type,state,county,match_status,match_reason,matched_facility_count,matched_facilities,in_state_rate,out_of_state_rate
+state,AK,,matched,state + DOC/correctional facility match,11,AK DOC - ANVIL MOUNTAIN CORRECTIONAL CENTER; AK DOC - FAIRBANKS CORRECTIONAL CENTER; AK DOC - GOOSE CREEK CORRECTIONAL CENTER; AK DOC - HILAND MOUNTAIN CORRECTIONAL CENTER; AK DOC - KETCHIKAN CORRECTIONAL CENTER; AK DOC - LEMON CREEK CORRECTIONAL CENTER; AK DOC - MAT-SU PRETRIAL FACILITY; AK DOC - PALMER CORRECTIONAL CENTER; AK DOC - POINT MACKENZIE CORRECTIONAL FARM; AK DOC - SPRING CREEK CORRECTIONAL CENTER; AK DOC - YUKON KUSKOKWIM CORRECTIONAL CENTER,0.085,0.085
+state,AR,,matched,state + DOC/correctional facility match,22,AR DOC - BENNY MAGNESS UNIT; AR DOC - BENTON UNIT; AR DOC - CUMMINS UNIT; AR DOC - DELTA REGIONAL UNIT; AR DOC - DR MARY L PARKER-REED WOMEN'S UNIT; AR DOC - EAST ARKANSAS REGIONAL UNIT; AR DOC - ESTER UNIT; AR DOC - GRIMES UNIT; AR DOC - J AARON HAWKINS SR CENTER FOR WOMEN; AR DOC - LARRY B NORRIS UNIT; AR DOC - MCPHERSON UNIT; AR DOC - OMEGA TECHNICAL VIOLATOR CENTER; AR DOC - OUACHITA RIVER UNIT; AR DOC - PINE BLUFF UNIT; AR DOC - RANDALL L WILLIAMS FACILITY; AR DOC - STATE POLICE BARRACKS; AR DOC - TEXARKANA REGION CORRECTION CENTER; AR DOC - TUCKER RE-ENTRY CENTER; AR DOC - TUCKER UNIT; AR DOC - VARNER UNIT; AR DOC - WHITE RIVER CORRECTIONAL CENTER; AR DOC - WRIGHTSVILLE UNIT,0.06,0.06
+state,AZ,,matched,state + DOC/correctional facility match,23,AZ DOC - DOUGLAS; AZ DOC - EYMAN BROWNING UNIT; AZ DOC - EYMAN COOK UNIT; AZ DOC - EYMAN MEADOWS UNIT; AZ DOC - EYMAN RYNNING UNIT; AZ DOC - EYMAN SMU I UNIT; AZ DOC - FLORENCE GLOBE; AZ DOC - FLORENCE MAIN; AZ DOC - FLORENCE WEST; AZ DOC - KINGMAN CORRECTIONAL; AZ DOC - LA PALMA CORRECTIONAL CENTER; AZ DOC - MARANA COMMUNITY TREATMENT CENTER; AZ DOC - PERRYVILLE; AZ DOC - PHOENIX ALHAMBRA; AZ DOC - PHOENIX WEST; AZ DOC - RED ROCK CORRECTIONAL CENTER/CCA; AZ DOC - SAFFORD; AZ DOC - SAFFORD FORT GRANT; AZ DOC - SAM LEWIS; AZ DOC - TUCSON; AZ DOC - WINSLOW; AZ DOC - WINSLOW APACHE UNIT; AZ DOC - YUMA,0.06,0.06
+state,CO,,matched,state + DOC/correctional facility match,7,CO DOC - ARROWHEAD CORRECTIONAL CENTER (ACC/CMC); CO DOC - COLORADO STATE PENITENTIARY (CSP); CO DOC - DELTA CORRECTIONAL CENTER (DCC); CO DOC - DENVER RECEPTION & DIAGNOSTIC CENTER (DRDC); CO DOC - FOUR MILE CORRECTIONAL CENTER (FMCC/CMC); CO DOC - RIFLE CORRECTIONAL CENTER (RCC); CO DOC - SKYLINE CORRECTIONAL CENTER-THE BEACON (SCC/CMC),0.005,0.005
+state,GA,,matched,state + DOC/correctional facility match,42,GA DOC - AL BURRUSS CORRECTIONAL TRAINING CENTER; GA DOC - APPLING INTEGRATED TREATMENT FACILITY; GA DOC - ARRENDALE STATE PRISON; GA DOC - AUGUSTA STATE MEDICAL PRISON; GA DOC - AUTRY STATE PRISON; GA DOC - BALDWIN STATE PRISON; GA DOC - CALHOUN STATE PRISON; GA DOC - CENTRAL STATE PRISON; GA DOC - COASTAL STATE PRISON; GA DOC - DODGE STATE PRISON; GA DOC - DOOLY STATE PRISON; GA DOC - EMANUEL UNIT; GA DOC - EMANUEL WOMEN'S FACILITY; GA DOC - GEORGIA DIAGNOSTIC & CLASSIFICATION STATE PRISON; GA DOC - GEORGIA STATE PRISON; GA DOC - HANCOCK STATE PRISON; GA DOC - HAYS STATE PRISON; GA DOC - HELMS FACILITY; GA DOC - JOHNSON STATE PRISON; GA DOC - LEE STATE PRISON; GA DOC - LONG UNIT; GA DOC - MACON STATE PRISON; GA DOC - MCRAE WOMEN'S FACILITY; GA DOC - METRO RE-ENTRY FACILITY; GA DOC - METRO REINVESTMENT CENTER; GA DOC - MONTGOMERY STATE PRISON; GA DOC - PHILLIPS STATE PRISON; GA DOC - PULASKI STATE PRISON; GA DOC - ROGERS STATE PRISON; GA DOC - RUTLEDGE STATE PRISON; GA DOC - SMITH STATE PRISON; GA DOC - TELFAIR STATE PRISON; GA DOC - TIFT COLLEGE NON CUSTODY; GA DOC - TURNER RESIDENTIAL SUBSTANCE ABUSE TREATMENT FACILITY; GA DOC - VALDOSTA STATE ANNEX; GA DOC - VALDOSTA STATE PRISON; GA DOC - WALKER STATE PRISON/NW RESIDENTIAL TREATMENT FACILITY; GA DOC - WARE STATE PRISON; GA DOC - WASHINGTON STATE PRISON; GA DOC - WEST CENTRAL INTEGRATED TREATMENT FACILITY; GA DOC - WHITWORTH WOMENS FACILITY; GA DOC - WILCOX STATE PRISON,0.06,0.06
+state,KY,,matched,state + DOC/correctional facility match,8,KY DOC - BELL FORESTRY CAMP; KY DOC - KENTUCKY CORRECTIONAL INSTITUTION FOR WOMEN; KY DOC - KENTUCKY STATE PENITENTIARY; KY DOC - KENTUCKY STATE REFORMATORY; KY DOC - LEE ADJUSTMENT CENTER; KY DOC - NORTHPOINT TRAINING CENTER; KY DOC - PSYCHIATRIC CENTER; KY DOC - ROSS CASH CENTER FOR WOMEN,0.14,0.14
+state,MO,,matched,state + DOC/correctional facility match,19,MO DOC - ALGOA CORRECTIONAL CENTER; MO DOC - BOONVILLE CORRECTIONAL CENTER; MO DOC - CHILLICOTHE CORRECTIONAL CENTER; MO DOC - CROSSROADS CORRECTIONAL CENTER; MO DOC - EASTERN RECEPTION DIAGNOSTIC & CORRECTIONAL CENTER; MO DOC - FARMINGTON CORRECTIONAL CENTER; MO DOC - FULTON RECEPTION & DIAGNOSTIC CENTER; MO DOC - JEFFERSON CITY CORRECTIONAL CENTER; MO DOC - MARYVILLE TREATMENT CENTER; MO DOC - MISSOURI EASTERN CORRECTIONAL CENTER; MO DOC - MOBERLY CORRECTIONAL CENTER; MO DOC - NORTHEAST CORRECTIONAL CENTER; MO DOC - OZARK CORRECTIONAL CENTER; MO DOC - POTOSI CORRECTIONAL CENTER; MO DOC - SOUTH CENTRAL CORRECTIONAL CENTER; MO DOC - SOUTHEAST CORRECTIONAL CENTER; MO DOC - TIPTON CORRECTIONAL CENTER; MO DOC - WESTERN RECEPTION DIAGNOSTIC & CORRECTIONAL CENTER; MO DOC - WOMENS EASTERN RECEPTION DIAGNOSTIC & CORRECTIONAL CENTER,0.05,0.05
+state,ND,,matched,state + DOC/correctional facility match,6,ND DOC - DAKOTA WOMEN'S CORRECTIONAL AND REHABILITATION CENTER; ND DOC - HEART RIVER CORRECTIONAL CENTER; ND DOC - JAMES RIVER CORRECTIONAL CENTER; ND DOC - JAMES RIVER MINIMUM UNIT; ND DOC - MISSOURI RIVER CORRECTIONAL CENTER; ND DOC - NORTH DAKOTA STATE PENITENTIARY,0.079,0.079
+county,AL,CHILTON,matched,state blocked record linkage; top score 90,1,CHILTON COUNTY JAIL,0.21,0.21
+county,AL,PERRY,matched,state blocked record linkage; top score 90,1,PERRY COUNTY JAIL,0.21,0.21
+county,AR,MISSISSIPPI,matched,state blocked record linkage; top score 90,1,MISSISSIPPI COUNTY DETENTION CENTER,0.21,0.21
+county,AZ,APACHE,matched,state blocked record linkage; top score 90,1,APACHE COUNTY JAIL,0.21,0.21
+county,AZ,COCHISE,matched,state blocked record linkage; top score 90,1,COCHISE COUNTY MAIN JAIL,0.09,0.09
+county,AZ,PINAL,review,state blocked record linkage; top score 70,1,PINAL COUNTY,0.18,0.18
+county,AZ,YAVAPAI,matched,state blocked record linkage; top score 90,2,YAVAPAI COUNTY EASTERN DETENTION - CAMP VERDE; YAVAPAI COUNTY NORTHERN DETENTION - PRESCOTT,0.21,0.21
+county,CA,AMADOR,matched,state blocked record linkage; top score 90,1,AMADOR COUNTY JAIL,0.07,0.07
+county,CA,CALAVERAS,matched,state blocked record linkage; top score 90,1,CALAVERAS COUNTY SHERIFF'S OFFICE,0.07,0.07
+county,CA,DEL NORTE,matched,state blocked record linkage; top score 90,1,DEL NORTE COUNTY SHERIFF'S OFFICE,0.07,0.07
+county,CA,KERN,matched,state blocked record linkage; top score 90,2,KERN COUNTY - SHERIFF'S MOJAVE SUBSTATION; KERN COUNTY - SHERIFF'S OFFICE CENTRAL RECEIVING FACILITY,0.05,0.05
+county,CA,MADERA,matched,state blocked record linkage; top score 90,1,MADERA COUNTY DOC,0.07,0.07
+county,CA,MONO,matched,state blocked record linkage; top score 90,1,MONO COUNTY SHERIFFS DEPT,0.05,0.05
+county,CA,NAPA,matched,state blocked record linkage; top score 90,1,NAPA COUNTY DOC,0.05,0.05
+county,CA,RIVERSIDE,matched,state blocked record linkage; top score 90,5,RIVERSIDE COUNTY - BLYTHE JAIL; RIVERSIDE COUNTY - COIS M BYRD DETENTION CENTER; RIVERSIDE COUNTY - JOHN J BENOIT DETENTION CENTER; RIVERSIDE COUNTY - LARRY D SMITH CORRECTIONS; RIVERSIDE COUNTY - ROBERT PRESLEY DETENTION CENTER,0.07,0.07
+county,CA,SACRAMENTO,matched,state blocked record linkage; top score 90,1,SACRAMENTO COUNTY MAIN JAIL,0.07,0.07
+county,CA,SAN BERNARDINO,matched,state blocked record linkage; top score 90,7,SAN BERNARDINO COUNTY - BARSTOW STATION JAIL; SAN BERNARDINO COUNTY - BIG BEAR STATION JAIL; SAN BERNARDINO COUNTY - CENTRAL DETENTION FACILITY; SAN BERNARDINO COUNTY - COLORADO RIVER JAIL; SAN BERNARDINO COUNTY - HIGH DESERT DETENTION FACILTY; SAN BERNARDINO COUNTY - MORONGO BASIN STATION JAIL; SAN BERNARDINO COUNTY WEST VALLEY DETENTION CENTER,0.07,0.07
+county,CA,SAN JOAQUIN,matched,state blocked record linkage; top score 98,2,SAN JOAQUIN COUNTY JAIL; SAN JOAQUIN COUNTY JAIL - BOOKING,0.07,0.07
+county,CA,SUTTER,matched,state blocked record linkage; top score 90,1,SUTTER COUNTY SHERIFF'S DEPT,0.07,0.07
+county,CA,TUOLUMNE,matched,state blocked record linkage; top score 90,1,TUOLUMNE COUNTY DAMBACHER DETENTION CENTER,0.05,0.05
+county,CA,VENTURA,matched,state blocked record linkage; top score 90,3,VENTURA COUNTY - EAST VALLEY JAIL; VENTURA COUNTY - PRETRIAL DETENTION FACILITY; VENTURA COUNTY - TODD RD JAIL FACILITY,0.07,0.07
+county,CO,BROOMFIELD,matched,state blocked record linkage; top score 98,1,BROOMFIELD CITY JAIL,0.18,0.18
+county,CO,CHAFFEE,matched,state blocked record linkage; top score 90,1,CHAFFEE COUNTY JAIL,0.12,0.12
+county,CO,CLEAR CREEK,matched,state blocked record linkage; top score 98,1,CLEAR CREEK COUNTY JAIL,0.21,0.21
+county,CO,DENVER,matched,state blocked record linkage; top score 90,1,DENVER COUNTY JAIL,0.06,0.06
+county,CO,JEFFERSON,matched,state blocked record linkage; top score 90,2,JEFFERSON COUNTY SHERIFF'S BOOKING; JEFFERSON COUNTY SHERIFF'S DETENTION FACILITY,0.16,0.16
+county,CO,LINCOLN,matched,state blocked record linkage; top score 90,1,LINCOLN COUNTY SHERIFF'S OFFICE,0.21,0.21
+county,CO,PARK,matched,state blocked record linkage; top score 90,1,PARK COUNTY DETENTION CENTER,0.12,0.12
+county,CO,SUMMIT,matched,state blocked record linkage; top score 90,1,SUMMIT COUNTY JAIL,0.21,0.21
+county,FL,BROWARD,matched,state blocked record linkage; top score 90,4,BROWARD COUNTY - BROWARD COUNTY MAIN JAIL; BROWARD COUNTY - JOSEPH CONTE DETENTION; BROWARD COUNTY - NORTH BROWARD DETENTION CENTER; BROWARD COUNTY - PAUL REIN DETENTION FACILITY,0.06,0.06
+county,FL,CITRUS,matched,state blocked record linkage; top score 90,1,CITRUS COUNTY DETENTION FACILITY,0.2,0.2
+county,FL,COLUMBIA,matched,state blocked record linkage; top score 90,1,COLUMBIA COUNTY DETENTION FACILITY,0.09,0.09
+county,FL,FLAGLER,matched,state blocked record linkage; top score 90,1,FLAGLER COUNTY SHERIFF'S OFFICE,0.09,0.09
+county,FL,HARDEE,matched,state blocked record linkage; top score 90,1,HARDEE COUNTY JAIL,0.21,0.21
+county,FL,JACKSON,matched,state blocked record linkage; top score 90,1,JACKSON COUNTY JAIL,0.21,0.21
+county,FL,LAKE,matched,state blocked record linkage; top score 90,1,LAKE COUNTY DETENTION CENTER,0.07,0.07
+county,FL,LEON,matched,state blocked record linkage; top score 90,1,LEON COUNTY JAIL,0.16,0.16
+county,FL,MADISON,matched,state blocked record linkage; top score 90,1,MADISON COUNTY JAIL,0.21,0.21
+county,FL,MARION,matched,state blocked record linkage; top score 90,1,MARION COUNTY JAIL,0.16,0.16
+county,FL,PALM BEACH,matched,state blocked record linkage; top score 90,1,PALM BEACH COUNTY MAIN DETENTION,0.16,0.16
+county,FL,POLK,matched,state blocked record linkage; top score 90,2,POLK COUNTY CENTRAL JAIL; POLK COUNTY SOUTH JAIL,0.16,0.16
+county,FL,PUTNAM,matched,state blocked record linkage; top score 90,1,PUTNAM COUNTY JAIL,0.21,0.21
+county,FL,SEMINOLE,matched,state blocked record linkage; top score 90,1,SEMINOLE COUNTY JAIL,0.21,0.21
+county,FL,TAYLOR,matched,state blocked record linkage; top score 90,1,TAYLOR COUNTY JAIL,0.21,0.21
+county,FL,WAKULLA,matched,state blocked record linkage; top score 90,1,WAKULLA COUNTY SHERIFF'S,0.2,0.2
+county,GA,CLARKE,matched,state blocked record linkage; top score 90,1,ATHENS CLARKE COUNTY JAIL,0.07,0.07
+county,GA,BALDWIN,matched,state blocked record linkage; top score 90,1,BALDWIN COUNTY JAIL,0.19,0.21
+county,GA,BIBB,matched,state blocked record linkage; top score 90,2,BIBB COUNTY MAIN JAIL; BIBB COUNTY NEW JAIL,0.19,0.21
+county,GA,CARROLL,matched,state blocked record linkage; top score 90,1,CARROLL COUNTY JAIL,0.16,0.21
+county,GA,CATOOSA,matched,state blocked record linkage; top score 90,1,CATOOSA COUNTY JAIL,0.09,0.09
+county,GA,COLUMBIA,matched,state blocked record linkage; top score 90,1,COLUMBIA COUNTY DETENTION CENTER,0.09,0.09
+county,GA,FAYETTE,matched,state blocked record linkage; top score 90,1,FAYETTE COUNTY JAIL,0.18,0.21
+county,GA,FORSYTH,matched,state blocked record linkage; top score 90,1,FORSYTH COUNTY DETENTION CENTER,0.09,0.09
+county,GA,GRADY,matched,state blocked record linkage; top score 90,1,GRADY COUNTY JAIL,0.19,0.21
+county,GA,GWINNETT,matched,state blocked record linkage; top score 90,2,GWINNETT COUNTY CORRECTIONAL COMPLEX; GWINNETT COUNTY SHERIFF'S OFFICE,0.14500000000000002,0.175
+county,GA,HALL,matched,state blocked record linkage; top score 90,1,HALL COUNTY JAIL,0.07,0.07
+county,GA,HARRIS,matched,state blocked record linkage; top score 90,1,HARRIS COUNTY PRISON,0.19,0.21
+county,GA,MARION,matched,state blocked record linkage; top score 90,1,MARION COUNTY SHERIFF'S DEPT,0.19,0.21
+county,GA,MERIWETHER,matched,state blocked record linkage; top score 90,1,MERIWETHER COUNTY SHERIFF'S OFFICE,0.19,0.21
+county,GA,PIKE,matched,state blocked record linkage; top score 90,1,PIKE COUNTY SHERIFF'S DEPT,0.18,0.21
+county,GA,ROCKDALE,matched,state blocked record linkage; top score 90,1,ROCKDALE COUNTY SHERIFF'S OFFICE,0.18,0.21
+county,GA,TATTNALL,matched,state blocked record linkage; top score 90,1,TATTNALL COUNTY SHERIFFS OFFICE,0.19,0.21
+county,GA,THOMAS,matched,state blocked record linkage; top score 90,1,THOMAS COUNTY DETENTION CENTER,0.19,0.21
+county,GA,TIFT,matched,state blocked record linkage; top score 90,1,TIFT COUNTY LAW ENFORCEMENT CENTER,0.19,0.21
+county,GA,TROUP,matched,state blocked record linkage; top score 90,1,TROUP COUNTY JAIL,0.19,0.21
+county,IA,STORY,matched,state blocked record linkage; top score 90,2,STORY COUNTY JAIL; STORY COUNTY JAIL BOOKING,0.19,0.19
+county,IA,WEBSTER,matched,state blocked record linkage; top score 90,1,WEBSTER COUNTY JAIL,0.21,0.21
+county,ID,BANNOCK,matched,state blocked record linkage; top score 90,1,BANNOCK COUNTY CRIMINAL JUSTICE CENTER,0.21,0.21
+county,ID,CUSTER,matched,state blocked record linkage; top score 90,1,CUSTER COUNTY JAIL,0.21,0.21
+county,ID,NEZ PERCE,matched,state blocked record linkage; top score 90,1,NEZ PERCE COUNTY JAIL,0.12,0.12
+county,IL,ADAMS,matched,state blocked record linkage; top score 90,1,ADAMS COUNTY JAIL,0.21,0.21
+county,IL,BOONE,matched,state blocked record linkage; top score 90,1,BOONE COUNTY JAIL,0.21,0.21
+county,IL,CRAWFORD,matched,state blocked record linkage; top score 90,1,CRAWFORD COUNTY JAIL,0.21,0.21
+county,IL,KANKAKEE,matched,state blocked record linkage; top score 90,2,KANKAKEE COUNTY JAIL; KANKAKEE COUNTY JEROME COMBS DETENTION CENTER,0.21,0.21
+county,IL,KENDALL,matched,state blocked record linkage; top score 90,1,KENDALL COUNTY JAIL,0.21,0.21
+county,IL,KNOX,matched,state blocked record linkage; top score 90,1,KNOX COUNTY JAIL,0.21,0.21
+county,IL,LAWRENCE,matched,state blocked record linkage; top score 90,1,LAWRENCE COUNTY JAIL,0.21,0.21
+county,IL,MARSHALL,matched,state blocked record linkage; top score 90,1,MARSHALL COUNTY SHERIFF'S DEPT,0.21,0.21
+county,IL,SALINE,matched,state blocked record linkage; top score 90,1,SALINE COUNTY JAIL,0.21,0.21
+county,IL,VERMILION,matched,state blocked record linkage; top score 90,1,VERMILION COUNTY JAIL,0.21,0.21
+county,IN,ELKHART,matched,state blocked record linkage; top score 90,1,ELKHART COUNTY JAIL,0.21,0.21
+county,IN,FLOYD,matched,state blocked record linkage; top score 90,1,FLOYD COUNTY JAIL,0.21,0.21
+county,IN,HARRISON,matched,state blocked record linkage; top score 90,1,HARRISON COUNTY SHERIFF'S DEPT,0.21,0.21
+county,IN,KOSCIUSKO,matched,state blocked record linkage; top score 90,1,KOSCIUSKO COUNTY JAIL,0.21,0.21
+county,IN,LAPORTE,matched,state blocked record linkage; top score 90,1,LAPORTE COUNTY JAIL,0.21,0.21
+county,IN,MADISON,matched,state blocked record linkage; top score 90,1,MADISON COUNTY CORRECTIONAL COMPLEX,0.21,0.21
+county,IN,MONTGOMERY,matched,state blocked record linkage; top score 90,1,MONTGOMERY COUNTY SHERIFF'S DEPT,0.21,0.21
+county,IN,SHELBY,matched,state blocked record linkage; top score 90,1,SHELBY COUNTY SHERIFF'S DEPT,0.21,0.21
+county,KS,BUTLER,matched,state blocked record linkage; top score 90,1,BUTLER COUNTY CORRECTIONS,0.21,0.21
+county,KS,MCPHERSON,matched,state blocked record linkage; top score 90,1,MCPHERSON COUNTY JAIL,0.21,0.21
+county,KS,SEDGWICK,matched,state blocked record linkage; top score 90,2,SEDGWICK COUNTY DETENTION FACILITY; SEDGWICK COUNTY DETENTION FACILITY ANNEX,0.049,0.049
+county,KS,WYANDOTTE,matched,state blocked record linkage; top score 90,1,WYANDOTTE COUNTY ADULT DETENTION CENTER,0.13,0.13
+county,KY,CLINTON,matched,state blocked record linkage; top score 90,1,CLINTON COUNTY JAIL,0.21,0.21
+county,KY,LETCHER,matched,state blocked record linkage; top score 90,1,LETCHER COUNTY JAIL,0.09,0.09
+county,KY,MEADE,matched,state blocked record linkage; top score 90,1,MEADE COUNTY JAIL,0.21,0.21
+county,KY,SCOTT,matched,state blocked record linkage; top score 90,1,SCOTT COUNTY DETENTION CENTER,0.09,0.09
+county,KY,LEE,no_match,no facility passed score threshold,0,,,
+county,KY,WARREN,matched,state blocked record linkage; top score 90,1,WARREN COUNTY REGIONAL JAIL,0.21,0.21
+county,MD,DORCHESTER,matched,state blocked record linkage; top score 90,1,DORCHESTER COUNTY DETENTION CENTER,0.21,0.21
+county,MD,QUEEN ANNE'S,matched,state blocked record linkage; top score 90,1,QUEEN ANNE'S COUNTY DETENTION CENTER,0.13,0.21
+county,MD,WORCESTER,matched,state blocked record linkage; top score 90,1,WORCESTER COUNTY DETENTION CENTER,0.21,0.21
+county,ME,ANDROSCOGGIN,matched,state blocked record linkage; top score 98,1,ANDROSCOGGIN COUNTY JAIL,0.09,0.09
+county,ME,AROOSTOOK,matched,state blocked record linkage; top score 90,1,AROOSTOOK COUNTY JAIL,0.21,0.21
+county,ME,CUMBERLAND,matched,state blocked record linkage; top score 90,1,CUMBERLAND COUNTY JAIL,0.21,0.21
+county,ME,HANCOCK,matched,state blocked record linkage; top score 90,1,HANCOCK COUNTY JAIL,0.21,0.21
+county,ME,KENNEBEC,matched,state blocked record linkage; top score 90,1,KENNEBEC COUNTY JAIL,0.21,0.21
+county,ME,KNOX,matched,state blocked record linkage; top score 90,1,KNOX COUNTY JAIL,0.21,0.21
+county,ME,OXFORD,matched,state blocked record linkage; top score 90,1,OXFORD COUNTY JAIL,0.12,0.12
+county,ME,PENOBSCOT,matched,state blocked record linkage; top score 90,1,PENOBSCOT COUNTY JAIL,0.21,0.21
+county,ME,PISCATAQUIS,matched,state blocked record linkage; top score 98,1,PISCATAQUIS COUNTY JAIL,0.21,0.21
+county,ME,SOMERSET,matched,state blocked record linkage; top score 90,1,SOMERSET COUNTY JAIL,0.21,0.21
+county,ME,WALDO,matched,state blocked record linkage; top score 90,1,WALDO COUNTY JAIL,0.21,0.21
+county,ME,WASHINGTON,matched,state blocked record linkage; top score 90,1,WASHINGTON COUNTY JAIL,0.21,0.21
+county,ME,YORK,matched,state blocked record linkage; top score 90,1,YORK COUNTY JAIL,0.21,0.21
+county,MI,ALGER,matched,state blocked record linkage; top score 90,1,ALGER COUNTY SHERIFF'S DEPT,0.21,0.21
+county,MI,BAY,matched,state blocked record linkage; top score 90,1,BAY COUNTY LAW ENFORCEMENT CENTER,0.09,0.09
+county,MI,BRANCH,matched,state blocked record linkage; top score 90,1,BRANCH COUNTY JAIL - NEW,0.21,0.21
+county,MI,CHIPPEWA,matched,state blocked record linkage; top score 90,1,CHIPPEWA COUNTY JAIL,0.21,0.21
+county,MI,DELTA,matched,state blocked record linkage; top score 90,1,DELTA COUNTY CORRECTIONAL FACILITY,0.21,0.21
+county,MI,DICKINSON,matched,state blocked record linkage; top score 90,1,DICKINSON COUNTY JAIL,0.21,0.21
+county,MI,GOGEBIC,matched,state blocked record linkage; top score 90,1,GOGEBIC COUNTY SHERIFF'S DEPT,0.21,0.21
+county,MI,GRATIOT,matched,state blocked record linkage; top score 90,1,GRATIOT COUNTY JAIL,0.12,0.12
+county,MI,IRON,matched,state blocked record linkage; top score 90,1,IRON COUNTY SHERIFF'S DEPT,0.21,0.21
+county,MI,MARQUETTE,matched,state blocked record linkage; top score 90,1,MARQUETTE SHERIFF'S DEPT,0.12,0.12
+county,MI,MIDLAND,matched,state blocked record linkage; top score 90,1,MIDLAND COUNTY JAIL,0.09,0.09
+county,MI,MUSKEGON,matched,state blocked record linkage; top score 90,1,MUSKEGON COUNTY JAIL,0.21,0.21
+county,MI,OCEANA,matched,state blocked record linkage; top score 90,1,OCEANA COUNTY JAIL,0.12,0.12
+county,MI,OTSEGO,matched,state blocked record linkage; top score 90,1,OTSEGO COUNTY JAIL,0.12,0.12
+county,MI,ST CLAIR,matched,state blocked record linkage; top score 90,1,ST CLAIR COUNTY JAIL,0.07,0.07
+county,MI,ST JOSEPH,matched,state blocked record linkage; top score 90,1,ST JOSEPH COUNTY JAIL,0.21,0.2
+county,MI,WASHTENAW,matched,state blocked record linkage; top score 90,1,WASHTENAW COUNTY SHERIFFS DEPT,0.21,0.21
+county,MN,CARVER,matched,state blocked record linkage; top score 90,1,CARVER COUNTY JAIL,0.21,0.21
+county,MN,DAKOTA,matched,state blocked record linkage; top score 90,1,DAKOTA COUNTY SHERIFF'S DEPT,0.18,0.18
+county,MN,GOODHUE,matched,state blocked record linkage; top score 90,1,GOODHUE SHERFF'S DEPT,0.16,0.16
+county,MN,WASHINGTON,matched,state blocked record linkage; top score 90,1,WASHINGTON COUNTY JAIL,0.21,0.21
+county,MO,BUCHANAN,matched,state blocked record linkage; top score 90,1,BUCHANAN COUNTY JAIL,0.12,0.12
+county,MO,CAPE GIRARDEAU,matched,state blocked record linkage; top score 98,1,CAPE GIRARDEAU COUNTY JAIL,0.12,0.12
+county,MO,ST. LOUIS,matched,state blocked record linkage; top score 90,1,ST LOUIS COUNTY JAIL,0.075,0.075
+county,MS,MADISON,matched,state blocked record linkage; top score 90,1,MADISON COUNTY DETENTION CENTER,0.21,0.21
+county,MT,CASCADE,matched,state blocked record linkage; top score 90,1,CASCADE COUNTY ADULT DETENTION CENTER,0.21,0.21
+county,MT,HILL,matched,state blocked record linkage; top score 90,1,HILL COUNTY DETENTION FACILITY,0.12,0.12
+county,MT,LINCOLN,matched,state blocked record linkage; top score 90,1,LINCOLN COUNTY JAIL,0.21,0.21
+county,NC,PASQUOTANK,no_match,no facility passed score threshold,0,,,
+county,NC,AVERY,matched,state blocked record linkage; top score 90,1,AVERY COUNTY SHERIFF'S OFFICE,0.12,0.12
+county,NC,BRUNSWICK,matched,state blocked record linkage; top score 90,1,BRUNSWICK COUNTY JAIL,0.21,0.21
+county,NC,CLEVELAND,matched,state blocked record linkage; top score 90,2,CLEVELAND COUNTY DETENTION FACILITY; CLEVELAND COUNTY JAIL ANNEX,0.2,0.2
+county,NC,CRAVEN,matched,state blocked record linkage; top score 90,1,CRAVEN COUNTY JAIL,0.21,0.21
+county,NC,DARE,matched,state blocked record linkage; top score 90,1,DARE COUNTY DETENTION CENTER,0.21,0.21
+county,NC,HOKE,matched,state blocked record linkage; top score 90,1,HOKE COUNTY DETENTION CENTER,0.21,0.21
+county,NC,JOHNSTON,matched,state blocked record linkage; top score 90,2,JOHNSTON COUNTY DETENTION CENTER; JOHNSTON COUNTY JAIL,0.15,0.15
+county,NC,NEW HANOVER,matched,state blocked record linkage; top score 90,1,NEW HANOVER COUNTY DETENTION CENTER,0.07,0.07
+county,NC,ONSLOW,matched,state blocked record linkage; top score 90,1,ONSLOW COUNTY JAIL,0.21,0.21
+county,NC,PAMLICO,matched,state blocked record linkage; top score 90,1,PAMLICO COUNTY DETENTION FACILITY,0.21,0.21
+county,NC,PENDER,matched,state blocked record linkage; top score 90,1,PENDER COUNTY JAIL,0.12,0.12
+county,NC,RUTHERFORD,matched,state blocked record linkage; top score 90,1,RUTHERFORD COUNTY DETENTION CENTER,0.21,0.21

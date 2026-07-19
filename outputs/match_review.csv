@@ -1,0 +1,4 @@
+type,state,county,match_status,match_reason,matched_facility_count,matched_facilities,in_state_rate,out_of_state_rate
+county,AZ,PINAL,review,state blocked record linkage; top score 70,1,PINAL COUNTY,0.18,0.18
+county,KY,LEE,no_match,no facility passed score threshold,0,,,
+county,NC,PASQUOTANK,no_match,no facility passed score threshold,0,,,
