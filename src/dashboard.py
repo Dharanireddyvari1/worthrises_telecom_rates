@@ -1,8 +1,4 @@
-"""Interactive Streamlit dashboard for exploring matched telecom rate data.
-
-Run:
-    cd src && streamlit run dashboard.py
-"""
+"""Interactive Streamlit dashboard for exploring matched telecom rate data."""
 
 from pathlib import Path
 
