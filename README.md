@@ -40,7 +40,7 @@ requirements.txt
 ```bash
 pip install -r requirements.txt
 cd src
-python clean_and_match.py
+python src/clean_and_match.py
 ```
 
 This reads `data/raw/staff_technologist_data_test.xlsx`, runs matching, and writes the output CSV files to `outputs/`.
