@@ -93,7 +93,7 @@ with tab_overview:
             color_discrete_map=colors,
             hole=0.45,
         )
-        fig_pie.update_traces(textinfo="value+percent")
+        fig_pie.update_traces(textinfo="value+label")
         fig_pie.update_layout(margin=dict(t=20, b=20, l=20, r=20), height=350)
         st.plotly_chart(fig_pie, use_container_width=True)
 
