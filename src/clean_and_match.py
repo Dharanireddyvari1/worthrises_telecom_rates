@@ -12,9 +12,11 @@ from entity_resolution import (
 )
 
 
-DEFAULT_INPUT = Path("data/raw/staff_technologist_data_test.xlsx")
-DEFAULT_OUTPUT = Path("outputs/matched_telecom_rates.csv")
-DEFAULT_REVIEW = Path("outputs/match_review.csv")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+DEFAULT_INPUT = PROJECT_ROOT / "data" / "raw" / "staff_technologist_data_test.xlsx"
+DEFAULT_OUTPUT = PROJECT_ROOT / "outputs" / "matched_telecom_rates.csv"
+DEFAULT_REVIEW = PROJECT_ROOT / "outputs" / "match_review.csv"
 
 RAW_COLUMNS = ["provider", "state", "county", "facility_id", "facility_name", "phone", "in_state", "per_min"]
 JURISDICTION_COLUMNS = ["type", "state", "county"]

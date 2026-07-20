@@ -29,7 +29,7 @@ src/
   clean_and_match.py                   # pipeline orchestrator
   dashboard.py                         # Streamlit dashboard
 tests/
-  test_entity_resolution.py            # 20 unit tests
+  test_entity_resolution.py            # 31 unit tests
 docs/
   data_dictionary.md                   # column definitions
 requirements.txt
@@ -89,4 +89,4 @@ cd tests
 python -m pytest test_entity_resolution.py -v
 ```
 
-20 tests covering text normalization, facility classification, county matching scores, and the county phrase filter.
+31 tests covering text normalization, facility classification (including state DOC precedence, private operator detection, generic term handling, and RE-ENTRY normalization), county matching scores, and the county phrase filter.

@@ -11,6 +11,7 @@ from entity_resolution import (
     county_key,
     county_match_score,
     has_explicit_county_phrase,
+    is_private_operator,
     normalize_text,
 )
 
@@ -65,6 +66,58 @@ class TestClassifyFacility:
     def test_ambiguous_name_returns_review(self):
         label, _ = classify_facility("SOME RANDOM FACILITY")
         assert label == "review"
+
+    def test_state_doc_prefix_beats_county_keyword(self):
+        """CO DOC facilities with county names should classify as state, not county."""
+        label, reason = classify_facility("CO DOC - BENT COUNTY CORRECTIONAL FACILITY")
+        assert label == "state_candidate"
+        assert "DOC prefix" in reason
+
+    def test_state_doc_prefix_various_states(self):
+        for name in ["AK DOC - GOOSE CREEK CORRECTIONAL CENTER",
+                      "GA DOC - AUTRY STATE PRISON",
+                      "CO DOC - DENVER RECEPTION AND DIAGNOSTIC CENTER"]:
+            label, _ = classify_facility(name)
+            assert label in ("state_candidate", "exclude"), f"{name} got {label}"
+
+    def test_reentry_excluded_after_normalization(self):
+        """RE-ENTRY becomes RE ENTRY after normalization; should still be excluded."""
+        label, _ = classify_facility("GA DOC - METRO RE-ENTRY FACILITY")
+        assert label == "exclude"
+
+    def test_private_operator_with_state_keyword(self):
+        label, _ = classify_facility("CCA LAKE CITY CORRECTIONAL FACILITY")
+        assert label == "review"
+
+    def test_private_operator_with_county_keyword(self):
+        label, _ = classify_facility("GEO GROUP - NORTHWEST DETENTION CENTER")
+        assert label == "review"
+
+    def test_generic_correctional_facility_is_review(self):
+        """Generic 'CORRECTIONAL FACILITY' without a state or county signal is review."""
+        label, _ = classify_facility("EASTERN CORRECTIONAL FACILITY")
+        assert label == "review"
+
+    def test_generic_correctional_complex_is_review(self):
+        """Generic 'CORRECTIONAL COMPLEX' without a state or county signal is review."""
+        label, _ = classify_facility("CENTRAL CORRECTIONAL COMPLEX")
+        assert label == "review"
+
+    def test_county_correctional_facility_is_county(self):
+        """'Riverside County Correctional Facility' has explicit county signal."""
+        label, _ = classify_facility("RIVERSIDE COUNTY CORRECTIONAL FACILITY")
+        assert label == "county_candidate"
+
+
+class TestPrivateOperator:
+    def test_cca_detected(self):
+        assert is_private_operator(" CCA SOMEWHERE ") is True
+
+    def test_geo_group_detected(self):
+        assert is_private_operator(" GEO GROUP FACILITY ") is True
+
+    def test_normal_facility_not_private(self):
+        assert is_private_operator(" FRANKLIN COUNTY JAIL ") is False
 
 
 class TestCountyMatchScore:
